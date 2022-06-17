@@ -19,7 +19,6 @@ void aux_help_env(void)
  */
 void aux_help_setenv(void)
 {
-
 	char *help = "setenv: setenv (const char *name, const char *value,";
 
 	write(STDOUT_FILENO, help, _strlen(help));
