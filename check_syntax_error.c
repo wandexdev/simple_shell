@@ -21,8 +21,7 @@ int repeated_char(char *input, int i)
  * @input: input string
  * @i: index
  * @last: last char read
- * Return: index of error. 0 when there are no
- * errors
+ * Return: index of error else 0 for no errors
  */
 int error_sep_op(char *input, int i, char last)
 {
@@ -73,7 +72,7 @@ int error_sep_op(char *input, int i, char last)
  *
  * @input: input string
  * @i: index
- * Return: 1 if there is an error. 0 in other case.
+ * Return: 1 if there is an error else 0
  */
 int first_char(char *input, int *i)
 {
@@ -151,7 +150,7 @@ void print_syntax_error(data_shell *datash, char *input, int i, int bool)
  *
  * @datash: data structure
  * @input: input string
- * Return: 1 if there is an error. 0 in other case
+ * Return: 1 if there is an error else 0
  */
 int check_syntax_error(data_shell *datash, char *input)
 {
