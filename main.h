@@ -1,6 +1,7 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
+/* Basic default headers*/
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
